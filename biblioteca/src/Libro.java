@@ -10,7 +10,7 @@ public class Libro extends Publicacion {
     @Override
     public void mostrarFicha() {
         super.mostrarFicha();
-        System.out.print(" Y el numero de paginas: " + numPaginas);
+        System.out.print(" Y el numero de paginas del libro es: " + numPaginas);
     }
 
 }
